@@ -119,6 +119,10 @@ Controller r = new Controller();
                 //r.getHA().setText(r.getHA().getText()+"Собеседник: "+red);
                 Thread.sleep(100);
                 hist.setText(hist.getText()+"Собеседник: "+red+"\n");
+                Main.getStage().toFront();
+                Main.getStage().requestFocus();
+
+
                 //.getHA().setText(r.getHA().getText()+"Собеседник: "+red);
             }
             catch (Exception e){}
