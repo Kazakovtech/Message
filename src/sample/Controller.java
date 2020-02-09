@@ -40,7 +40,7 @@ public void conrollerStart(){
     public void t() throws IOException {
        // String ip = ipTestConnection.getText();
        // System.out.println(ip);
-        String ip =ipadress.getText();
+        String ip =ipadress.getText() ;
         message=new Message();
         //ping
         //List<String> out = message.PingIpAddr(ip);
